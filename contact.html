@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    
+<link href="css/style.css" rel="stylesheet"/>
+    
+    
+    </head>
+ <body>
+    <header>
+    <nav role='navigation'>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html" class="selected">Contact</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+    </header>
+    <h1>Let's Talk!</h1>
+
+    <div class="col-5">
+         <h2>Send me a <a href="http://twitter.com/intent/tweet?screen_name=@designingwithjo">Tweet</a></h2>
+         <img src="img/twitter-icon.png" href="http://twitter.com/intent/tweet?screen_name=@designingwithjo">
+    </div>
+
+    <div class="col-6">
+        <h2>Send me an Email</h2>
+
+        <form action="//formspree.io/josiasnavarro@eagles.ewu.edu"
+              method="POST">
+
+          <label for="name">Name</label>
+            <input type="text" name="name">
+
+          <label for="_replyto">Email</label>
+            <input type="email" name="_replyto">
+
+          <label for="message">Message</label><br>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+   
+ </body>
+</html>
